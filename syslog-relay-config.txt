@@ -1,0 +1,11 @@
+# Configuration du relai Syslog
+
+receiver_ip=192.168.3.2        # Adresse IP du récepteur des logs
+receiver_port=6666             # Port du récepteur des logs
+max_log_age=2                  # Âge maximum des logs avant suppression (en minutes)
+log_directory=/opt/syslog-relay  # Répertoire du fichier de buffer
+log_file=buffer-relay.log      # Nom du fichier de buffer
+log_purge_age=604800          # Âge des logs à conserver (en secondes) - 1 semaine
+timeout_seconds=5             # Timeout pour la connexion du socket (en secondes)
+start_on_boot=true            # Démarrage automatique du script (vrai ou faux)
+debug=false                   # Désactiver le débogage (vrai ou faux)
