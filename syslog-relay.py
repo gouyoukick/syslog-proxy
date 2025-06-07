@@ -1,3 +1,13 @@
+# -*- relay-syslog for xBird Nuc local server -*-
+# =============================================================================
+# Nom du fichier  : nom_dsyslog-relay.py
+# Auteur          : Julien Gaulier
+# Date de création: 2025-06-07
+# Description     : Récupère les syslog locaux sur le port UDP 6666, fai tun buffer et les envoie au server log distant en TCP 6666
+# Version         : 1.0.0
+# Python version  : 3.13
+# =============================================================================
+
 import os
 import socket
 from datetime import datetime, timedelta
