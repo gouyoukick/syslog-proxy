@@ -75,5 +75,5 @@ MIT License
 Author
 Julien Gaulier
 Gravity Media – Audio Broadcast & DevOps
-julien.gaulier@gravitymedia.com
+gaulierjulien@yahoo.fr
 
